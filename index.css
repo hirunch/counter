@@ -1,0 +1,63 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+
+#cont {
+
+  
+  margin:auto;
+  margin-top:50px;
+  width: 300px;
+  height: 250px;
+  background-color: rgb(178, 239, 201);
+  border-radius: 20px;
+  padding-top: 5px;
+  
+}
+
+#cont h1 {
+  text-align: center;
+  color:rgb(208, 44, 121);
+  font-size: 25px;
+}
+
+#num {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color:royalblue
+}
+
+#btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 6px;
+  margin: 8px;
+  height: 30px;
+  
+}
+
+
+button {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(222, 176, 224);
+  cursor: pointer;
+  transition:opacity 0.5s;
+
+
+}
+
+button:hover {
+
+  background-color: rgb(205, 80, 209);
+}
+
+button:active {
+  
+  opacity: 0.5;
+  
+}
+
